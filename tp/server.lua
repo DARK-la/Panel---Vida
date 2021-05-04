@@ -9,10 +9,9 @@ mensaje1 = table.concat({...}," ")
 
 addCommandHandler("rf",LaRadio)
 
--- 4853 cono
 
-function crear1(source)
-	x,y,z = getElementPosition(source)
-	createPickup (  x,  3+y, z, 3, 24,  30000, 7  )         
+function darvida1()
+	outputChatBox("Obvio que da weon")
 end
-addCommandHandler("awa",crear1)
+addEvent("onBotonVida",true)
+addEventHandler("onBotonVida",root,darvida1)
